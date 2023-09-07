@@ -66,7 +66,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
     );
   }
 }
-
+// Stack
 class WebViewStack extends StatefulWidget {
   const WebViewStack({required this.controller, super.key}); // MODIFY
 
@@ -136,6 +136,7 @@ class _WebViewStackState extends State<WebViewStack> {
   }
 }
 
+// Navigation Control Button
 class NavigationControls extends StatelessWidget {
   const NavigationControls({required this.controller, super.key});
 
@@ -194,11 +195,13 @@ class NavigationControls extends StatelessWidget {
   }
 }
 
+
 enum _MenuOptions {
   navigationDelegate,
   reload,
 }
 
+// Menu Buttons
 class Menu extends StatelessWidget {
   const Menu({required this.controller, super.key});
 
