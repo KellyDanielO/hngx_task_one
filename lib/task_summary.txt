@@ -1,0 +1,31 @@
+The message you've posted appears to be a hypothetical assignment or task given to mobile development interns. Let's break down the key elements and instructions provided in this assignment:
+
+**Objective:** The objective of this task is to create a mobile application that displays your Slack identity (name), incorporates your Slack profile picture, and includes a button labeled "Open GitHub." When the "Open GitHub" button is pressed, it should redirect users to your GitHub profile using a WebView component within the application.
+
+**Requirements:** The assignment outlines several requirements that you need to adhere to:
+
+1. **Slack Name:** The main screen of the mobile application should prominently display your Slack name.
+
+2. **Display Picture:** Your Slack profile picture should be integrated onto the main screen, ensuring it's clear and of high quality.
+
+3. **Open GitHub Button:** You must add a button labeled "Open GitHub" to the main screen. When users press this button, it should correctly redirect them to your GitHub profile using a WebView component within the application.
+
+**Acceptance Criteria:** This section defines what the reviewers will assess to determine if your project meets the requirements:
+
+1. **Minimal Third-party Dependencies:** You should aim to develop the application with minimal use of third-party packages, plugins, or libraries. While third-party dependencies are allowed, the emphasis is on utilizing native functionalities and components of your selected mobile platform (e.g., Android or iOS) whenever possible.
+
+2. **Intuitive UI:** Your application should have a user-friendly and intuitive interface with clear labeling and easy navigation.
+
+3. **Responsiveness:** The application must be responsive, providing a seamless experience across various device sizes. This means it should work well on different screen sizes and orientations.
+
+4. **Functionality:** The "Open GitHub" button should work correctly and open your specified GitHub profile within the application's WebView.
+
+**Submission Guide:** The assignment also provides guidelines on how to submit your work:
+
+1. **Preparing Your Submission:** You should host your application's source code on a public GitHub repository. Include a `README.md` file in the repository with setup instructions, assumptions made during development, and other pertinent details. Additionally, use Appetize.io to create a virtualized demonstration of the release version of your app.
+
+2. **Completing the Submission Form:** Provide accurate and complete personal details in the submission form. Include links to your GitHub repository and the virtualized demonstration created on Appetize.io.
+
+3. **Submission Deadline:** The submission deadline is specified as September 12, 2023, at 11:59 PM GMT+1. Late submissions are not accepted.
+
+In summary, this assignment is a hands-on project for mobile development interns to create a mobile application that features their Slack identity, Slack profile picture, and a button to open their GitHub profile within the app. It encourages interns to develop the application with a focus on native functionality, good user interface design, responsiveness, and correct functionality. Submissions are expected to be hosted on GitHub and demonstrated using Appetize.io, with a submission deadline in place.
