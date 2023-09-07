@@ -35,7 +35,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
         automaticallyImplyLeading: false,
         leading: IconButton(onPressed: () => Get.back(), icon: const Icon(CupertinoIcons.arrow_left, color: AppColors.mainColor,),),
         title: Text(
-          'Donate',
+          'My Github',
           style: TextStyle(
             color: AppColors.mainColor,
             fontSize: width * .01 + 22,
