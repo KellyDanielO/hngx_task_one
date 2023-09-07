@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 import '../constants/colors.dart';
 import 'web_view.dart';
@@ -38,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     alignment: Alignment.center,
                   ),
                 ),
-              ),
+              ).animate().fadeIn(delay: 400.ms),
               SizedBox(height: height * .02),
               // Slack name
               Text(
@@ -49,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontSize: width * .01 + 32,
                   color: AppColors.mainColor,
                 ),
-              ),
+              ).animate().scaleXY(delay: 500.ms),
               // Open Github Button
               ElevatedButton(
                 onPressed: () => Get.to(() => const WebViewScreen()),
@@ -78,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: AppColors.mainColor,
                   ),
                 ),
-              ),
+              ).animate().scaleXY(delay: 600.ms),
             ],
           ),
         ),

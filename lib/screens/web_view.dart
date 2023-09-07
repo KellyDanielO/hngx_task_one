@@ -146,7 +146,7 @@ class NavigationControls extends StatelessWidget {
     return Row(
       children: <Widget>[
         IconButton(
-          icon: const Icon(Icons.arrow_back_ios),
+          icon: const Icon(Icons.arrow_back_ios, color: AppColors.mainColor,),
           onPressed: () async {
             final messenger = ScaffoldMessenger.of(context);
             if (await controller.canGoBack()) {
@@ -168,7 +168,7 @@ class NavigationControls extends StatelessWidget {
           },
         ),
         IconButton(
-          icon: const Icon(Icons.arrow_forward_ios),
+          icon: const Icon(Icons.arrow_forward_ios, color: AppColors.mainColor,),
           onPressed: () async {
             final messenger = ScaffoldMessenger.of(context);
             if (await controller.canGoForward()) {
@@ -217,6 +217,7 @@ class Menu extends StatelessWidget {
             break;
         }
       },
+      color: AppColors.mainColor,
       itemBuilder: (context) => [
         const PopupMenuItem<_MenuOptions>(
           value: _MenuOptions.navigationDelegate,
