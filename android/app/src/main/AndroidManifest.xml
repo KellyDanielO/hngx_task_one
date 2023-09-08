@@ -11,7 +11,7 @@
         </intent>
    </queries>
     <application
-        android:label="hngx_task_one"
+        android:label="HGNx Task 1"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
