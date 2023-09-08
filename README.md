@@ -27,7 +27,7 @@ Find the source code and project files in the [GitHub Repository](https://github
 
 ## Demonstration
 
-Experience the app in action through a virtualized demo version on [Appetize.io](https://appetize.io/).
+Experience the app in action through a virtualized demo version on [Appetize.io](https://appetize.io/app/im2owk2cmzifherwgx3wdvaerq?device=pixel4&osVersion=11.0&scale=75).
 
 I'm proud of the outcome of this project, which not only meets the internship task but also demonstrates my commitment to user-centric and functional mobile app development. I look forward to continuing my journey in mobile development and exploring exciting projects in the future. Thank you for your interest and support!
 
