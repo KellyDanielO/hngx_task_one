@@ -1,14 +1,41 @@
 # HGNx Stage One - task one
 # Mobile Developers
 
-Brief description of your project.
+# Slack Identity Mobile App
+
+## Project Description
+
+Welcome to the Slack Identity Mobile App, a project developed during my internship journey. This mobile application is designed to highlight my Slack identity and seamlessly integrate my GitHub profile for easy access.
+
+### Features
+
+1. **Slack Name Display:** The app prominently features my Slack name on the main screen, ensuring easy identification.
+
+2. **Display Picture:** My high-quality Slack profile picture is seamlessly integrated into the main screen, adding a personal touch.
+
+3. **Open GitHub Button:** The standout feature of this app is the "Open GitHub" button. Tapping it redirects users to my GitHub profile using a WebView component, establishing a direct link between the app and my GitHub presence.
+
+### Achievements
+
+- Created an intuitive and user-friendly UI with clear labeling and navigation.
+- Ensured full responsiveness, providing a seamless experience on various device sizes.
+- Successfully implemented the "Open GitHub" button functionality for convenient GitHub profile access.
+
+## Project Repository
+
+Find the source code and project files in the [GitHub Repository](https://github.com/KellyDanielO/hngx_task_one).
+
+## Demonstration
+
+Experience the app in action through a virtualized demo version on [Appetize.io](https://appetize.io/).
+
+I'm proud of the outcome of this project, which not only meets the internship task but also demonstrates my commitment to user-centric and functional mobile app development. I look forward to continuing my journey in mobile development and exploring exciting projects in the future. Thank you for your interest and support!
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
 
 
 ## Getting Started
