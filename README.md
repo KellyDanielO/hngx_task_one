@@ -20,7 +20,7 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/KellyDanielO/hngx_task_one.git
 
 2. Enter the project directory
     ```bash
@@ -39,11 +39,32 @@ To get started with this project, follow these steps:
 
 ## Installation
 
-1. Additional setup step (if any).
 
-   ```bash
-   # Add instructions here
-# Add instructions here
+## Windows
+
+### Prerequisites
+
+Before you begin, make sure you have the following prerequisites installed:
+
+- Windows 7 or later (64-bit)
+- Git (for downloading Flutter and Dart)
+- PowerShell (recommended)
+
+### Installation
+
+1. Download the Flutter SDK:
+
+   ```powershell
+   git clone https://github.com/flutter/flutter.git
+
+2. Add the Flutter bin directory to your system's PATH variable.
+3. Add the Flutter bin directory to your system's PATH variable.
+    ```powershell
+    flutter doctor
+4. Install missing dependencies as suggested by flutter doctor.
+5. Verify your installation:
+    ```powershell
+    flutter --version
 
 ## Usage
 
