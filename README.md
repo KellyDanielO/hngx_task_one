@@ -9,8 +9,6 @@ Brief description of your project.
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 
 ## Getting Started
@@ -86,8 +84,9 @@ Before you begin, make sure you have the following prerequisites installed:
 2. Add the Flutter bin directory to your system's PATH variable.
     ```bash
     export PATH="$PATH:`pwd`/flutter/bin"
+    
+You can add this line to your shell configuration file (e.g., ~/.bashrc, ~/.zshrc) to make it permanent.
 
-    You can add this line to your shell configuration file (e.g., ~/.bashrc, ~/.zshrc) to make it permanent.
 3. Install missing dependencies as suggested by flutter doctor.
     ```bash
     flutter doctor
@@ -95,24 +94,33 @@ Before you begin, make sure you have the following prerequisites installed:
     ```bash
     flutter --version
 
-## Usage
+## macOS
 
-Here's how you can use this project:
+### Prerequisites
 
-1. Describe usage step-by-step.
+Before you begin, make sure you have the following prerequisites installed:
 
-```dart
-// Provide code examples if necessary
+- macOS (64-bit)
+- Xcode (for iOS development)
+- Git (for downloading Flutter and Dart)
+- Homebrew (recommended for package management)
 
-## Contributing
+### Installation
 
-We welcome contributions! Please follow these guidelines when contributing:
+1. Download the Flutter SDK:
 
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
+   ```bash
+   git clone https://github.com/flutter/flutter.git
 
-## License
+2. Add the Flutter bin directory to your system's PATH variable.
+    ```bash
+    export PATH="$PATH:`pwd`/flutter/bin"
 
-This project is licensed under the [MIT License](LICENSE.md).
+You can add this line to your shell configuration file (e.g., ~/.bashrc, ~/.zshrc) to make it permanent.
 
-![GitHub](https://img.shields.io/github/license/your-username/your-project)
+3. Install missing dependencies as suggested by flutter doctor.
+    ```bash
+    flutter doctor
+4. Verify your installation:
+    ```bash
+    flutter --version
