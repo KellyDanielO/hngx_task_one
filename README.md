@@ -21,18 +21,21 @@ To get started with this project, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/your-project.git
-   
-```bash
-cd your-project
 
-flutter pub get
-
-flutter run
+2. Enter the project directory
+    ```bash
+    cd hngx_task_one
+3. Download needed 3rd part dependencies
+    ```bash
+    flutter pub get
+4. Run The Application
+    ```bash
+    flutter run
 
 ## Prerequisites
 
-- [Flutter](https://flutter.dev/) (version x.x.x)
-- [Dart](https://dart.dev/) (version x.x.x)
+- [Flutter](https://flutter.dev/) 
+- [Dart](https://dart.dev/) 
 
 ## Installation
 
