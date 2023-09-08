@@ -58,12 +58,41 @@ Before you begin, make sure you have the following prerequisites installed:
    git clone https://github.com/flutter/flutter.git
 
 2. Add the Flutter bin directory to your system's PATH variable.
-3. Add the Flutter bin directory to your system's PATH variable.
     ```powershell
     flutter doctor
-4. Install missing dependencies as suggested by flutter doctor.
-5. Verify your installation:
+3. Install missing dependencies as suggested by flutter doctor.
     ```powershell
+    flutter doctor
+4. Verify your installation:
+    ```powershell
+    flutter --version
+
+## Linux
+
+### Prerequisites
+
+Before you begin, make sure you have the following prerequisites installed:
+
+- Linux (64-bit)
+- Git (for downloading Flutter and Dart)
+
+### Installation
+
+1. Download the Flutter SDK:
+
+   ```bash
+   git clone https://github.com/flutter/flutter.git
+
+2. Add the Flutter bin directory to your system's PATH variable.
+    ```bash
+    export PATH="$PATH:`pwd`/flutter/bin"
+
+    You can add this line to your shell configuration file (e.g., ~/.bashrc, ~/.zshrc) to make it permanent.
+3. Install missing dependencies as suggested by flutter doctor.
+    ```bash
+    flutter doctor
+4. Verify your installation:
+    ```bash
     flutter --version
 
 ## Usage
